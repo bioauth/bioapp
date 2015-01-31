@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB79DA0E1A7D9CCE00AA3FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA0D1A7D9CCE00AA3FDA /* AppDelegate.swift */; };
+		EB79DA101A7D9CCE00AA3FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA0F1A7D9CCE00AA3FDA /* ViewController.swift */; };
+		EB79DA131A7D9CCE00AA3FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA111A7D9CCE00AA3FDA /* Main.storyboard */; };
+		EB79DA151A7D9CCE00AA3FDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA141A7D9CCE00AA3FDA /* Images.xcassets */; };
+		EB79DA181A7D9CCE00AA3FDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA161A7D9CCE00AA3FDA /* LaunchScreen.xib */; };
+		EB79DA241A7D9CCE00AA3FDA /* BioAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA231A7D9CCE00AA3FDA /* BioAuthTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB79DA1E1A7D9CCE00AA3FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB79DA001A7D9CCE00AA3FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB79DA071A7D9CCE00AA3FDA;
+			remoteInfo = BioAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB79DA081A7D9CCE00AA3FDA /* BioAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB79DA0C1A7D9CCE00AA3FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB79DA0D1A7D9CCE00AA3FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB79DA0F1A7D9CCE00AA3FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB79DA121A7D9CCE00AA3FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB79DA141A7D9CCE00AA3FDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB79DA171A7D9CCE00AA3FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB79DA1D1A7D9CCE00AA3FDA /* BioAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB79DA221A7D9CCE00AA3FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB79DA231A7D9CCE00AA3FDA /* BioAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuthTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB79DA051A7D9CCE00AA3FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79DA1A1A7D9CCE00AA3FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB79D9FF1A7D9CCE00AA3FDA = {
+			isa = PBXGroup;
+			children = (
+				EB79DA0A1A7D9CCE00AA3FDA /* BioAuth */,
+				EB79DA201A7D9CCE00AA3FDA /* BioAuthTests */,
+				EB79DA091A7D9CCE00AA3FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB79DA091A7D9CCE00AA3FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB79DA081A7D9CCE00AA3FDA /* BioAuth.app */,
+				EB79DA1D1A7D9CCE00AA3FDA /* BioAuthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB79DA0A1A7D9CCE00AA3FDA /* BioAuth */ = {
+			isa = PBXGroup;
+			children = (
+				EB79DA0D1A7D9CCE00AA3FDA /* AppDelegate.swift */,
+				EB79DA0F1A7D9CCE00AA3FDA /* ViewController.swift */,
+				EB79DA111A7D9CCE00AA3FDA /* Main.storyboard */,
+				EB79DA141A7D9CCE00AA3FDA /* Images.xcassets */,
+				EB79DA161A7D9CCE00AA3FDA /* LaunchScreen.xib */,
+				EB79DA0B1A7D9CCE00AA3FDA /* Supporting Files */,
+			);
+			path = BioAuth;
+			sourceTree = "<group>";
+		};
+		EB79DA0B1A7D9CCE00AA3FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB79DA0C1A7D9CCE00AA3FDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB79DA201A7D9CCE00AA3FDA /* BioAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB79DA231A7D9CCE00AA3FDA /* BioAuthTests.swift */,
+				EB79DA211A7D9CCE00AA3FDA /* Supporting Files */,
+			);
+			path = BioAuthTests;
+			sourceTree = "<group>";
+		};
+		EB79DA211A7D9CCE00AA3FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB79DA221A7D9CCE00AA3FDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB79DA071A7D9CCE00AA3FDA /* BioAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB79DA271A7D9CCE00AA3FDA /* Build configuration list for PBXNativeTarget "BioAuth" */;
+			buildPhases = (
+				EB79DA041A7D9CCE00AA3FDA /* Sources */,
+				EB79DA051A7D9CCE00AA3FDA /* Frameworks */,
+				EB79DA061A7D9CCE00AA3FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioAuth;
+			productName = BioAuth;
+			productReference = EB79DA081A7D9CCE00AA3FDA /* BioAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB79DA1C1A7D9CCE00AA3FDA /* BioAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB79DA2A1A7D9CCE00AA3FDA /* Build configuration list for PBXNativeTarget "BioAuthTests" */;
+			buildPhases = (
+				EB79DA191A7D9CCE00AA3FDA /* Sources */,
+				EB79DA1A1A7D9CCE00AA3FDA /* Frameworks */,
+				EB79DA1B1A7D9CCE00AA3FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB79DA1F1A7D9CCE00AA3FDA /* PBXTargetDependency */,
+			);
+			name = BioAuthTests;
+			productName = BioAuthTests;
+			productReference = EB79DA1D1A7D9CCE00AA3FDA /* BioAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB79DA001A7D9CCE00AA3FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jack Cook";
+				TargetAttributes = {
+					EB79DA071A7D9CCE00AA3FDA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EB79DA1C1A7D9CCE00AA3FDA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EB79DA071A7D9CCE00AA3FDA;
+					};
+				};
+			};
+			buildConfigurationList = EB79DA031A7D9CCE00AA3FDA /* Build configuration list for PBXProject "BioAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB79D9FF1A7D9CCE00AA3FDA;
+			productRefGroup = EB79DA091A7D9CCE00AA3FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB79DA071A7D9CCE00AA3FDA /* BioAuth */,
+				EB79DA1C1A7D9CCE00AA3FDA /* BioAuthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB79DA061A7D9CCE00AA3FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB79DA131A7D9CCE00AA3FDA /* Main.storyboard in Resources */,
+				EB79DA181A7D9CCE00AA3FDA /* LaunchScreen.xib in Resources */,
+				EB79DA151A7D9CCE00AA3FDA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79DA1B1A7D9CCE00AA3FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB79DA041A7D9CCE00AA3FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB79DA101A7D9CCE00AA3FDA /* ViewController.swift in Sources */,
+				EB79DA0E1A7D9CCE00AA3FDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79DA191A7D9CCE00AA3FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB79DA241A7D9CCE00AA3FDA /* BioAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB79DA1F1A7D9CCE00AA3FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB79DA071A7D9CCE00AA3FDA /* BioAuth */;
+			targetProxy = EB79DA1E1A7D9CCE00AA3FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB79DA111A7D9CCE00AA3FDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB79DA121A7D9CCE00AA3FDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB79DA161A7D9CCE00AA3FDA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB79DA171A7D9CCE00AA3FDA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB79DA251A7D9CCE00AA3FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB79DA261A7D9CCE00AA3FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB79DA281A7D9CCE00AA3FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BioAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB79DA291A7D9CCE00AA3FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BioAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB79DA2B1A7D9CCE00AA3FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BioAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioAuth.app/BioAuth";
+			};
+			name = Debug;
+		};
+		EB79DA2C1A7D9CCE00AA3FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BioAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioAuth.app/BioAuth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB79DA031A7D9CCE00AA3FDA /* Build configuration list for PBXProject "BioAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB79DA251A7D9CCE00AA3FDA /* Debug */,
+				EB79DA261A7D9CCE00AA3FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB79DA271A7D9CCE00AA3FDA /* Build configuration list for PBXNativeTarget "BioAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB79DA281A7D9CCE00AA3FDA /* Debug */,
+				EB79DA291A7D9CCE00AA3FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB79DA2A1A7D9CCE00AA3FDA /* Build configuration list for PBXNativeTarget "BioAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB79DA2B1A7D9CCE00AA3FDA /* Debug */,
+				EB79DA2C1A7D9CCE00AA3FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB79DA001A7D9CCE00AA3FDA /* Project object */;
+}
