@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26390A8C1D76781F47A45200 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9056E13333C5F82A4C2B14F /* libPods.a */; };
 		EB79DA0E1A7D9CCE00AA3FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA0D1A7D9CCE00AA3FDA /* AppDelegate.swift */; };
 		EB79DA131A7D9CCE00AA3FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA111A7D9CCE00AA3FDA /* Main.storyboard */; };
 		EB79DA151A7D9CCE00AA3FDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA141A7D9CCE00AA3FDA /* Images.xcassets */; };
@@ -17,10 +18,7 @@
 		EB79DA331A7DA3B000AA3FDA /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA301A7DA3B000AA3FDA /* white.png */; };
 		EB79DA361A7DA47000AA3FDA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA351A7DA47000AA3FDA /* MainViewController.swift */; };
 		EB79DA381A7DA77600AA3FDA /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA371A7DA77600AA3FDA /* VerifyViewController.swift */; };
-		EBB47FBF1A7DC05500C7912F /* libNCLNetiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB47FBA1A7DC05500C7912F /* libNCLNetiOS.a */; };
-		EBB47FC01A7DC05500C7912F /* NymiKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB47FBD1A7DC05500C7912F /* NymiKit.m */; };
-		EBB47FC31A7DC52900C7912F /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB47FC21A7DC52900C7912F /* Common.m */; };
-		EE238CFE61409D1DCD94B0A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3351224D5DAD9737FC88321 /* libPods.a */; };
+		EBB47FCD1A7DEA3800C7912F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB47FCC1A7DEA3800C7912F /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +33,8 @@
 
 /* Begin PBXFileReference section */
 		516104A1C0B398A91B644F66 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B9056E13333C5F82A4C2B14F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DE575BD04B537124A66699 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		E3351224D5DAD9737FC88321 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB79DA081A7D9CCE00AA3FDA /* BioAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB79DA0C1A7D9CCE00AA3FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB79DA0D1A7D9CCE00AA3FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,13 +50,7 @@
 		EB79DA351A7DA47000AA3FDA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EB79DA371A7DA77600AA3FDA /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
 		EBB47FB71A7DBD9E00C7912F /* ObjectiveBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveBridge.h; sourceTree = "<group>"; };
-		EBB47FB91A7DC05500C7912F /* libNCLiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNCLiOS.a; sourceTree = "<group>"; };
-		EBB47FBA1A7DC05500C7912F /* libNCLNetiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNCLNetiOS.a; sourceTree = "<group>"; };
-		EBB47FBB1A7DC05500C7912F /* ncl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ncl.h; sourceTree = "<group>"; };
-		EBB47FBC1A7DC05500C7912F /* NymiKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NymiKit.h; sourceTree = "<group>"; };
-		EBB47FBD1A7DC05500C7912F /* NymiKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NymiKit.m; sourceTree = "<group>"; };
-		EBB47FC11A7DC52900C7912F /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		EBB47FC21A7DC52900C7912F /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		EBB47FCC1A7DEA3800C7912F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE238CFE61409D1DCD94B0A0 /* libPods.a in Frameworks */,
-				EBB47FBF1A7DC05500C7912F /* libNCLNetiOS.a in Frameworks */,
+				26390A8C1D76781F47A45200 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +75,7 @@
 		867A4D9E923B8391354B3224 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E3351224D5DAD9737FC88321 /* libPods.a */,
+				B9056E13333C5F82A4C2B14F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -92,7 +83,6 @@
 		EB79D9FF1A7D9CCE00AA3FDA = {
 			isa = PBXGroup;
 			children = (
-				EBB47FB81A7DC05500C7912F /* NCL */,
 				EB79DA0A1A7D9CCE00AA3FDA /* BioAuth */,
 				EB79DA201A7D9CCE00AA3FDA /* BioAuthTests */,
 				EB79DA091A7D9CCE00AA3FDA /* Products */,
@@ -173,22 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				EBB47FB71A7DBD9E00C7912F /* ObjectiveBridge.h */,
-				EBB47FC11A7DC52900C7912F /* Common.h */,
-				EBB47FC21A7DC52900C7912F /* Common.m */,
+				EBB47FCC1A7DEA3800C7912F /* Common.swift */,
 			);
 			path = util;
-			sourceTree = "<group>";
-		};
-		EBB47FB81A7DC05500C7912F /* NCL */ = {
-			isa = PBXGroup;
-			children = (
-				EBB47FB91A7DC05500C7912F /* libNCLiOS.a */,
-				EBB47FBA1A7DC05500C7912F /* libNCLNetiOS.a */,
-				EBB47FBB1A7DC05500C7912F /* ncl.h */,
-				EBB47FBC1A7DC05500C7912F /* NymiKit.h */,
-				EBB47FBD1A7DC05500C7912F /* NymiKit.m */,
-			);
-			path = NCL;
 			sourceTree = "<group>";
 		};
 		FEB0D91B186602FEA57A2337 /* Pods */ = {
@@ -340,9 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB79DA381A7DA77600AA3FDA /* VerifyViewController.swift in Sources */,
-				EBB47FC01A7DC05500C7912F /* NymiKit.m in Sources */,
-				EBB47FC31A7DC52900C7912F /* Common.m in Sources */,
 				EB79DA0E1A7D9CCE00AA3FDA /* AppDelegate.swift in Sources */,
+				EBB47FCD1A7DEA3800C7912F /* Common.swift in Sources */,
 				EB79DA361A7DA47000AA3FDA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

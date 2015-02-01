@@ -7,5 +7,4 @@
 //
 
 #import <CommonCrypto/CommonHMAC.h>
-#import "Common.h"
-#import "NymiKit.h"
+#import "NSData+HexString.h"
