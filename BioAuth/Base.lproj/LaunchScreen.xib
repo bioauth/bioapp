@@ -18,7 +18,7 @@
                     </constraints>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.49744248390197754" green="0.64893847703933716" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.59489071369171143" green="0.74986636638641357" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="ja8-zZ-P0Q" secondAttribute="trailing" constant="120" id="HKw-is-vmi"/>
                 <constraint firstAttribute="centerY" secondItem="ja8-zZ-P0Q" secondAttribute="centerY" id="JEf-CO-8De"/>

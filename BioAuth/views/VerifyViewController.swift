@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Jack Cook. All rights reserved.
 //
 
+import LocalAuthentication
 import UIKit
 
 class VerifyViewController: UIViewController {
@@ -59,15 +60,22 @@ class VerifyViewController: UIViewController {
     }
     
     @IBAction func yesButtonPressed(sender: AnyObject) {
-        verifySignature(true)
-        
-        hud = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
-        hud.mode = MBProgressHUDModeText
-        hud.labelText = "Sign-in Authorized"
-        hud.show(true)
-        
-        let timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "finish", userInfo: nil, repeats: false)
-        NSRunLoop.mainRunLoop().addTimer(timer, forMode: NSRunLoopCommonModes)
+        let context = LAContext()
+        context.evaluatePolicy(.DeviceOwnerAuthenticationWithBiometrics, localizedReason: "We need to verify your identity to authenticate you.") { (success, error) -> Void in
+            if success {
+                NSOperationQueue.mainQueue().addOperationWithBlock({ () -> Void in
+                    self.verifySignature(true)
+                    
+                    self.hud = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+                    self.hud.mode = MBProgressHUDModeText
+                    self.hud.labelText = "Sign-in Authorized"
+                    self.hud.show(true)
+                    
+                    let timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "finish", userInfo: nil, repeats: false)
+                    NSRunLoop.mainRunLoop().addTimer(timer, forMode: NSRunLoopCommonModes)
+                })
+            }
+        }
     }
     
     func verifySignature(yes: Bool) {
@@ -75,11 +83,8 @@ class VerifyViewController: UIViewController {
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "POST"
         
-        println(token)
-        
         let deviceToken = NSUserDefaults.standardUserDefaults().stringForKey("DeviceToken")!
         let hashed = sha512(sha512(deviceToken) + token)
-        println(hashed)
         let requestBody = ["token": token, "hashed": hashed]
         
         if yes {
@@ -91,7 +96,7 @@ class VerifyViewController: UIViewController {
         }
         
         NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) { (response, data, error) -> Void in
-            
+            println("hashed tokens verified")
         }
     }
     
