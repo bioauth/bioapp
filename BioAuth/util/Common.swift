@@ -22,7 +22,7 @@ func dataToString(data: NSData) -> String {
 }
 
 func sha512(string: String) -> String {
-    let url = NSURL(string: "http://138.51.239.11:8080/\(string)")!
+    let url = NSURL(string: "http://107.170.109.85:8080/\(string)")!
     let request = NSMutableURLRequest(URL: url)
     request.HTTPMethod = "GET"
     
