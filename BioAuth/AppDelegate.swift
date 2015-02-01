@@ -31,9 +31,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
         application.applicationIconBadgeNumber = 0
         
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vvc = storyboard.instantiateViewControllerWithIdentifier("VerifyViewController") as VerifyViewController
+        let url = NSURL(string: "http://138.51.205.14/external/1/list")!
+        let request = NSMutableURLRequest(URL: url)
+        request.HTTPMethod = "GET"
         
-        (self.window?.rootViewController as UINavigationController).visibleViewController.presentViewController(vvc, animated: true, completion: nil)
+        NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) { (response, data, error) -> Void in
+            if let responseJSON = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error: nil) as? NSArray {
+                if let tokenData = responseJSON[0] as? NSDictionary {
+                    if let t = tokenData["token"] as? String {
+                        if let l = tokenData["location"] as? String {
+                            if let n = tokenData["name"] as? String {
+                                token = t
+                                location = l
+                                name = n
+                                
+                                NSNotificationCenter.defaultCenter().postNotificationName(BAPushNotification, object: nil)
+                            }
+                        }
+                        //let deviceToken = NSUserDefaults.standardUserDefaults().stringForKey("DeviceToken")!
+                        //println(sha512(deviceToken) + token)
+                        //tokensHash = sha512(sha512(deviceToken) + token)
+                        //println(tokensHash)
+                    }
+                }
+            }
+        }
     }
 }

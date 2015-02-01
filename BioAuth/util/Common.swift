@@ -10,8 +10,12 @@ import UIKit
 
 let deviceSize = UIScreen.mainScreen().bounds
 
-var deviceToken: NSData!
-var tokensHash: String!
+let nc = NSNotificationCenter.defaultCenter()
+let BAPushNotification = "BAPushNotification"
+
+var token: String!
+var location: String!
+var name: String!
 
 func dataToString(data: NSData) -> String {
     return "\(data)".stringByReplacingOccurrencesOfString("<", withString: "").stringByReplacingOccurrencesOfString(">", withString: "").stringByReplacingOccurrencesOfString(" ", withString: "")

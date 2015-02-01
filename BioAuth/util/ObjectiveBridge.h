@@ -7,3 +7,4 @@
 //
 
 #import "ChameleonFramework/Chameleon.h"
+#import "MBProgressHUD.h"
