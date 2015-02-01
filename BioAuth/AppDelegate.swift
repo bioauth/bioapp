@@ -27,4 +27,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let deviceTokenString = deviceToken.description.stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: "<>")).stringByReplacingOccurrencesOfString(" ", withString: "")
         println(deviceTokenString)
     }
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+        application.applicationIconBadgeNumber = 0
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vvc = storyboard.instantiateViewControllerWithIdentifier("VerifyViewController") as VerifyViewController
+        
+        (self.window?.rootViewController as UINavigationController).visibleViewController.presentViewController(vvc, animated: true, completion: nil)
+    }
 }

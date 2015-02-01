@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		EB79DA0E1A7D9CCE00AA3FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA0D1A7D9CCE00AA3FDA /* AppDelegate.swift */; };
-		EB79DA101A7D9CCE00AA3FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA0F1A7D9CCE00AA3FDA /* ViewController.swift */; };
 		EB79DA131A7D9CCE00AA3FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA111A7D9CCE00AA3FDA /* Main.storyboard */; };
 		EB79DA151A7D9CCE00AA3FDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA141A7D9CCE00AA3FDA /* Images.xcassets */; };
 		EB79DA181A7D9CCE00AA3FDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA161A7D9CCE00AA3FDA /* LaunchScreen.xib */; };
 		EB79DA241A7D9CCE00AA3FDA /* BioAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA231A7D9CCE00AA3FDA /* BioAuthTests.swift */; };
+		EB79DA311A7DA3B000AA3FDA /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA2E1A7DA3B000AA3FDA /* gray.png */; };
+		EB79DA321A7DA3B000AA3FDA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA2F1A7DA3B000AA3FDA /* icon.png */; };
+		EB79DA331A7DA3B000AA3FDA /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = EB79DA301A7DA3B000AA3FDA /* white.png */; };
+		EB79DA361A7DA47000AA3FDA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA351A7DA47000AA3FDA /* MainViewController.swift */; };
+		EB79DA381A7DA77600AA3FDA /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB79DA371A7DA77600AA3FDA /* VerifyViewController.swift */; };
+		EBB47FBF1A7DC05500C7912F /* libNCLNetiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB47FBA1A7DC05500C7912F /* libNCLNetiOS.a */; };
+		EBB47FC01A7DC05500C7912F /* NymiKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB47FBD1A7DC05500C7912F /* NymiKit.m */; };
+		EBB47FC31A7DC52900C7912F /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB47FC21A7DC52900C7912F /* Common.m */; };
+		EE238CFE61409D1DCD94B0A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3351224D5DAD9737FC88321 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +34,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		516104A1C0B398A91B644F66 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C2DE575BD04B537124A66699 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E3351224D5DAD9737FC88321 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB79DA081A7D9CCE00AA3FDA /* BioAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB79DA0C1A7D9CCE00AA3FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB79DA0D1A7D9CCE00AA3FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB79DA0F1A7D9CCE00AA3FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB79DA121A7D9CCE00AA3FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB79DA141A7D9CCE00AA3FDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB79DA171A7D9CCE00AA3FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EB79DA1D1A7D9CCE00AA3FDA /* BioAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB79DA221A7D9CCE00AA3FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB79DA231A7D9CCE00AA3FDA /* BioAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuthTests.swift; sourceTree = "<group>"; };
+		EB79DA2E1A7DA3B000AA3FDA /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		EB79DA2F1A7DA3B000AA3FDA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EB79DA301A7DA3B000AA3FDA /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		EB79DA351A7DA47000AA3FDA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EB79DA371A7DA77600AA3FDA /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		EBB47FB71A7DBD9E00C7912F /* ObjectiveBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveBridge.h; sourceTree = "<group>"; };
+		EBB47FB91A7DC05500C7912F /* libNCLiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNCLiOS.a; sourceTree = "<group>"; };
+		EBB47FBA1A7DC05500C7912F /* libNCLNetiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNCLNetiOS.a; sourceTree = "<group>"; };
+		EBB47FBB1A7DC05500C7912F /* ncl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ncl.h; sourceTree = "<group>"; };
+		EBB47FBC1A7DC05500C7912F /* NymiKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NymiKit.h; sourceTree = "<group>"; };
+		EBB47FBD1A7DC05500C7912F /* NymiKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NymiKit.m; sourceTree = "<group>"; };
+		EBB47FC11A7DC52900C7912F /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		EBB47FC21A7DC52900C7912F /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE238CFE61409D1DCD94B0A0 /* libPods.a in Frameworks */,
+				EBB47FBF1A7DC05500C7912F /* libNCLNetiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		867A4D9E923B8391354B3224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3351224D5DAD9737FC88321 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EB79D9FF1A7D9CCE00AA3FDA = {
 			isa = PBXGroup;
 			children = (
+				EBB47FB81A7DC05500C7912F /* NCL */,
 				EB79DA0A1A7D9CCE00AA3FDA /* BioAuth */,
 				EB79DA201A7D9CCE00AA3FDA /* BioAuthTests */,
 				EB79DA091A7D9CCE00AA3FDA /* Products */,
+				FEB0D91B186602FEA57A2337 /* Pods */,
+				867A4D9E923B8391354B3224 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +113,10 @@
 		EB79DA0A1A7D9CCE00AA3FDA /* BioAuth */ = {
 			isa = PBXGroup;
 			children = (
+				EBB47FB61A7DBD9400C7912F /* util */,
+				EB79DA341A7DA46300AA3FDA /* views */,
+				EB79DA2D1A7DA3B000AA3FDA /* images */,
 				EB79DA0D1A7D9CCE00AA3FDA /* AppDelegate.swift */,
-				EB79DA0F1A7D9CCE00AA3FDA /* ViewController.swift */,
 				EB79DA111A7D9CCE00AA3FDA /* Main.storyboard */,
 				EB79DA141A7D9CCE00AA3FDA /* Images.xcassets */,
 				EB79DA161A7D9CCE00AA3FDA /* LaunchScreen.xib */,
@@ -112,6 +150,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EB79DA2D1A7DA3B000AA3FDA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EB79DA2E1A7DA3B000AA3FDA /* gray.png */,
+				EB79DA2F1A7DA3B000AA3FDA /* icon.png */,
+				EB79DA301A7DA3B000AA3FDA /* white.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		EB79DA341A7DA46300AA3FDA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EB79DA351A7DA47000AA3FDA /* MainViewController.swift */,
+				EB79DA371A7DA77600AA3FDA /* VerifyViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EBB47FB61A7DBD9400C7912F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				EBB47FB71A7DBD9E00C7912F /* ObjectiveBridge.h */,
+				EBB47FC11A7DC52900C7912F /* Common.h */,
+				EBB47FC21A7DC52900C7912F /* Common.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		EBB47FB81A7DC05500C7912F /* NCL */ = {
+			isa = PBXGroup;
+			children = (
+				EBB47FB91A7DC05500C7912F /* libNCLiOS.a */,
+				EBB47FBA1A7DC05500C7912F /* libNCLNetiOS.a */,
+				EBB47FBB1A7DC05500C7912F /* ncl.h */,
+				EBB47FBC1A7DC05500C7912F /* NymiKit.h */,
+				EBB47FBD1A7DC05500C7912F /* NymiKit.m */,
+			);
+			path = NCL;
+			sourceTree = "<group>";
+		};
+		FEB0D91B186602FEA57A2337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2DE575BD04B537124A66699 /* Pods.debug.xcconfig */,
+				516104A1C0B398A91B644F66 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB79DA271A7D9CCE00AA3FDA /* Build configuration list for PBXNativeTarget "BioAuth" */;
 			buildPhases = (
+				6ACAE148F91A11255C8C6508 /* Check Pods Manifest.lock */,
 				EB79DA041A7D9CCE00AA3FDA /* Sources */,
 				EB79DA051A7D9CCE00AA3FDA /* Frameworks */,
 				EB79DA061A7D9CCE00AA3FDA /* Resources */,
+				13527AD21969BF117F54DF17 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,8 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB79DA131A7D9CCE00AA3FDA /* Main.storyboard in Resources */,
+				EB79DA321A7DA3B000AA3FDA /* icon.png in Resources */,
 				EB79DA181A7D9CCE00AA3FDA /* LaunchScreen.xib in Resources */,
+				EB79DA311A7DA3B000AA3FDA /* gray.png in Resources */,
 				EB79DA151A7D9CCE00AA3FDA /* Images.xcassets in Resources */,
+				EB79DA331A7DA3B000AA3FDA /* white.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,13 +301,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13527AD21969BF117F54DF17 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ACAE148F91A11255C8C6508 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB79DA041A7D9CCE00AA3FDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB79DA101A7D9CCE00AA3FDA /* ViewController.swift in Sources */,
+				EB79DA381A7DA77600AA3FDA /* VerifyViewController.swift in Sources */,
+				EBB47FC01A7DC05500C7912F /* NymiKit.m in Sources */,
+				EBB47FC31A7DC52900C7912F /* Common.m in Sources */,
 				EB79DA0E1A7D9CCE00AA3FDA /* AppDelegate.swift in Sources */,
+				EB79DA361A7DA47000AA3FDA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,23 +464,35 @@
 		};
 		EB79DA281A7D9CCE00AA3FDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2DE575BD04B537124A66699 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BioAuth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NCL",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BioAuth/util/ObjectiveBridge.h;
 			};
 			name = Debug;
 		};
 		EB79DA291A7D9CCE00AA3FDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516104A1C0B398A91B644F66 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BioAuth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NCL",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BioAuth/util/ObjectiveBridge.h;
 			};
 			name = Release;
 		};
@@ -408,6 +549,7 @@
 				EB79DA291A7D9CCE00AA3FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB79DA2A1A7D9CCE00AA3FDA /* Build configuration list for PBXNativeTarget "BioAuthTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +558,7 @@
 				EB79DA2C1A7D9CCE00AA3FDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
