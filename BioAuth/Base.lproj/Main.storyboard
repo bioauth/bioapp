@@ -44,13 +44,87 @@
                                     <action selector="signButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="L8V-rR-sMl"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have nothing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zY7-8r-VQF">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="SHt-1o-Dqs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="SHt-1o-Dqs"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="SHt-1o-Dqs"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to authenticate!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4f-f2-FaG">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="b76-7V-FyC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="36"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="b76-7V-FyC"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="b76-7V-FyC"/>
+                                    </mask>
+                                </variation>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.49744248390197754" green="0.64893847703933716" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="s4f-f2-FaG" secondAttribute="centerY" id="Hbx-Jl-O0S">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-19"/>
+                            </constraint>
+                            <constraint firstItem="s4f-f2-FaG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="Hvf-R2-8hR"/>
+                            <constraint firstItem="zY7-8r-VQF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="OHw-1q-ouX"/>
+                            <constraint firstAttribute="trailing" secondItem="s4f-f2-FaG" secondAttribute="trailing" constant="16" id="Pnw-Lf-NMe"/>
+                            <constraint firstAttribute="centerY" secondItem="zY7-8r-VQF" secondAttribute="centerY" id="S0c-jv-jpE">
+                                <variation key="heightClass=regular-widthClass=compact" constant="35"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="zY7-8r-VQF" secondAttribute="trailing" constant="16" id="jwL-JT-pGf"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="vHY-nt-i0k"/>
                                 <exclude reference="jGh-iO-ml8"/>
                                 <exclude reference="AWu-na-vF7"/>
+                                <exclude reference="zY7-8r-VQF"/>
+                                <exclude reference="s4f-f2-FaG"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="OHw-1q-ouX"/>
+                                <exclude reference="S0c-jv-jpE"/>
+                                <exclude reference="jwL-JT-pGf"/>
+                                <exclude reference="Hbx-Jl-O0S"/>
+                                <exclude reference="Hvf-R2-8hR"/>
+                                <exclude reference="Pnw-Lf-NMe"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="zY7-8r-VQF"/>
+                                <include reference="s4f-f2-FaG"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="OHw-1q-ouX"/>
+                                <include reference="S0c-jv-jpE"/>
+                                <include reference="jwL-JT-pGf"/>
+                                <include reference="Hbx-Jl-O0S"/>
+                                <include reference="Hvf-R2-8hR"/>
+                                <include reference="Pnw-Lf-NMe"/>
                             </mask>
                         </variation>
                     </view>

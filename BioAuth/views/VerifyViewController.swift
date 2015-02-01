@@ -85,6 +85,9 @@ class VerifyViewController: UIViewController {
         if yes {
             let postString = "token=\(token)&hashed=\(hashed)"
             request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
+        } else {
+            let postString = "token=\(token)&hashed=a"
+            request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding, allowLossyConversion: true)
         }
         
         NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) { (response, data, error) -> Void in
