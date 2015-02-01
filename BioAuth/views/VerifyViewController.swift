@@ -13,20 +13,25 @@ class VerifyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.view.backgroundColor = UIColor(gradientStyle: .TopToBottom, withFrame: self.view.frame, andColors: [UIColor.flatLimeColorDark(), UIColor.flatLimeColor()])
+        
         let url = NSURL(string: "http://138.51.205.14:3000/external/1/list")!
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "GET"
         
         NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) { (response, data, error) -> Void in
+            if error != nil {
+                println(error.localizedDescription)
+            }
             if let responseJSON = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error: nil) as? NSArray {
                 if let tokenData = responseJSON[0] as? NSDictionary {
                     if let token = tokenData["token"] as? String {
                         let deviceToken = NSUserDefaults.standardUserDefaults().stringForKey("DeviceToken")!
                         tokensHash = sha512(sha512(deviceToken) + token)
+                        println(tokensHash)
                     }
                 }
             }
         }
-        println(hash)
     }
 }

@@ -49,7 +49,7 @@
 		EB79DA301A7DA3B000AA3FDA /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
 		EB79DA351A7DA47000AA3FDA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EB79DA371A7DA77600AA3FDA /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
-		EBB47FB71A7DBD9E00C7912F /* ObjectiveBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveBridge.h; sourceTree = "<group>"; };
+		EB9DFAF11A7E03BD00A67279 /* ObjectiveBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveBridge.h; sourceTree = "<group>"; };
 		EBB47FCC1A7DEA3800C7912F /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,8 +162,8 @@
 		EBB47FB61A7DBD9400C7912F /* util */ = {
 			isa = PBXGroup;
 			children = (
-				EBB47FB71A7DBD9E00C7912F /* ObjectiveBridge.h */,
 				EBB47FCC1A7DEA3800C7912F /* Common.swift */,
+				EB9DFAF11A7E03BD00A67279 /* ObjectiveBridge.h */,
 			);
 			path = util;
 			sourceTree = "<group>";
